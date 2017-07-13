@@ -8,7 +8,7 @@
 
 typedef void (^QRCodeViewControllerReturnBlock)(NSString *code);
 
-@interface QRCodeViewController : UIViewController<ZXCaptureDelegate>
+@interface QRCodeViewController : UIViewController
 
 -(id)initWithReturnBlock:(QRCodeViewControllerReturnBlock)block;
 
